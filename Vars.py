@@ -23,7 +23,7 @@ border:1px solid black;
 %s
 </table>
 <p align="center">
-<a href="Index.html">Back to main page</a>
+<a href="index.html">Back to main page</a>
 </p>
 </body>
 </html>"""
@@ -50,4 +50,5 @@ P1="""<html>
 </center>
 </p>
 </body>
+
 </html>"""
