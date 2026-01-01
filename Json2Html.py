@@ -17,9 +17,10 @@ else:
 
 	Entries=[]
 	for i in Tables:Entries.append(E1%(i,i))
-	with open("Index.html","w") as f:f.write(P1%("".join(Entries).rstrip()))
+	with open("index.html","w") as f:f.write(P1%("".join(Entries).rstrip()))
 	print("Index updated")
 
 	print("Finished")
+
 
 shutil.rmtree("__pycache__")
