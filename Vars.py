@@ -39,14 +39,18 @@ P1="""<html>
 <body style="background-color:rgb(0, 195, 255)">
 <h1 align="center">Welcome</h1>
 <p align="center">
-<a href="ReadMe.txt">Introduction</a><br>
+<b>
+<a href="ReadMe.txt">Introduction</a><br><br>
 <a href="https://github.com/M0hamedAshraf19/M0hamedAshraf19.github.io">Source Code</a><br><br>
+</b>
 </p>
 <h2 align="center">Index</h2>
 <p>
+<b>
 <center>
 %s
 </center>
+</b>
 </p>
 </body>
 
