@@ -6,6 +6,7 @@ E0="""<tr>
 
 P0="""<html>
 <head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <title>%s</title>
 </head>
 <style>
@@ -35,12 +36,13 @@ E1="""<font size="4">
 P1="""<html>
 <head>
 <title>Welcome</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body style="background-color:rgb(0, 195, 255)">
 <h1 align="center">Welcome</h1>
 <p align="center">
 <b>
-<a href="ReadMe.txt">Introduction</a><br><br>
+<a href="ReadMe.html">Introduction</a><br><br>
 <a href="https://github.com/M0hamedAshraf19/M0hamedAshraf19.github.io">Source Code</a><br><br>
 </b>
 </p>
@@ -53,5 +55,4 @@ P1="""<html>
 </b>
 </p>
 </body>
-
 </html>"""
