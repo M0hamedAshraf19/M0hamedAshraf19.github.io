@@ -6,7 +6,6 @@ E0="""<tr>
 
 P0="""<html>
 <head>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
 <title>%s</title>
 </head>
 <style>
@@ -36,7 +35,6 @@ E1="""<font size="4">
 P1="""<html>
 <head>
 <title>Welcome</title>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body style="background-color:rgb(0, 195, 255)">
 <h1 align="center">Welcome</h1>
