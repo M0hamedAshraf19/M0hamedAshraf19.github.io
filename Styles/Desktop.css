@@ -1,94 +1,83 @@
 body {
-    font-size: 48px;
+    /* font-size: 48px; */
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #00fff2;
-}
-
-div {
-    display: none;
-}
-
-h1 {
-    font-size: 110px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    background-image: url("..\\BG.jpg");
 }
 
 button {
-    font-size: 48px;
-    background-color: #1052e1;
-    color: white;
+    font-size: 50px;
+    background-color: #d4a24e;
+    color: #1a1a2e;
     border: none;
     border-radius: 20px;
-    padding: 5px;
+    padding: 8px;
+    margin: 30px;
     cursor: pointer;
 }
 
-input[type='checkbox'] {
-	width: 32px;
-	height: 32px;
-}
-
-input[type='submit'] {
-	font-size: 35px;
-}
-
-select {
-	font-size: 48px;
-}
-
-input[type='text'] {
-	font-size: 38px;
-}
-
-input[type='password'] {
-	font-size: 48px;
-}
-
-.video {
-    font-weight: bold;
-}
-
-p.video {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 25px;
-    border: 10px solid black;
-    padding: 25px;
-}
-
-.video iframe {
-    margin-bottom: 20px;
-}
-
-#question {
-    font-size: 90px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
-
-#typeOptions {
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-#typeOptions button{
-    font-size: 40px;
-    margin-top: 10px;
-}
-
-#score {
+#aboutPopUp {
+    display: none;
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f5dcaf;
+    color: #1a1a2e;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    z-index: 10;
+}
+
+#aboutPopUp h1 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+
+#aboutPopUp p {
     text-align: left;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#aboutPopUp ul {
+    text-align: left;
+}
+
+#aboutPopUp li {
+    margin-bottom: 7px;
+}
+
+
+#aboutPopUp hr {
+    margin-bottom: 20px;
+}
+
+#aboutPopUp button {
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 10px; right: 15px;
+    cursor: pointer;
+    font-size: 18px;
     font-weight: bold;
-    border: 6px solid blue;
-    padding: 5px;
+}
+
+#aboutPopUp button:hover {
+    color: red;
+}
+
+#aboutPopUp .svgico {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
 }
