@@ -1,1 +1,0 @@
-[README](https://rentry.org/M0hamedAshraf19-EducationSupportSystem-README)
