@@ -136,3 +136,14 @@ svg {
     margin-top: 0px;
     margin-bottom: 10px;
 }
+
+.csvfile button {
+    font-size: 30px;
+    background-color: #d4a24e;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 30px;
+    cursor: pointer;
+}
