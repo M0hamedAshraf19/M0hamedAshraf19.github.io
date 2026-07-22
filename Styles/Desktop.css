@@ -1,8 +1,13 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
 body {
-    /* font-size: 48px; */
+    overflow: auto;
+    height: 100%;
     text-align: center;
     font-family: Arial, sans-serif;
-    background-image: url("..\\BG.jpg");
+    background-image: url("/BG.jpg");
 }
 button {
     font-size: 50px;
