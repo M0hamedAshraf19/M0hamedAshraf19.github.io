@@ -1,11 +1,9 @@
 function openPopUp(id) {
     document.getElementById(id).style.display='block';
 }
-
 function closePopUp(id) {
     document.getElementById(id).style.display='none';
 }
-
 function switchItem(button) {
     const item = button.parentElement
     console.log(button.innerText, item);

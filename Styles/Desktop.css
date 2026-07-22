@@ -4,7 +4,6 @@ body {
     font-family: Arial, sans-serif;
     background-image: url("..\\BG.jpg");
 }
-
 button {
     font-size: 50px;
     background-color: #d4a24e;
@@ -15,18 +14,15 @@ button {
     margin: 20px;
     cursor: pointer;
 }
-
 svg {
     width: 40px;
     height: 40px;
 }
-
 .item-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .item {
     background-color: #d4a24e;
     border: black 5px solid;
@@ -37,7 +33,6 @@ svg {
     min-height: 20px;
     font-size: 30px;
 }
-
 .item button {
     background-color: transparent;
     margin: 0px;
@@ -50,20 +45,16 @@ svg {
     font-weight: bold;
     text-align: center;
 }
-
 .item button:hover {
     color: red;
 }
-
 .item a, .item a:visited, .item a:active {
     color: #000000;
     text-decoration: none;
 }
-
 .item a:hover {
     color: #0f0fc2;
 }
-
 #csvNote {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -71,11 +62,9 @@ svg {
     font-weight: bold;
     color: #0f0fc2;
 }
-
 #csvNote a, #csvNote a:visited, #csvNote a:active {
     color: #0f0fc2;
 }
-
 #aboutPopUp {
     display: none;
     position: fixed;
@@ -88,32 +77,26 @@ svg {
     text-align: center;
     z-index: 10;
 }
-
 #aboutPopUp h1 {
     margin-top: 5px;
     margin-bottom: 15px;
     font-size: 45px;
 }
-
 #aboutPopUp p {
     text-align: left;
     margin-bottom: 5px;
     margin-bottom: 10px;
 }
-
 #aboutPopUp ul {
     text-align: left;
 }
-
 #aboutPopUp li {
     margin-bottom: 7px;
 }
 
-
 #aboutPopUp hr {
     margin-bottom: 20px;
 }
-
 #aboutPopUp button {
     background-color: transparent;
     margin: 0px;
@@ -124,11 +107,9 @@ svg {
     font-size: 18px;
     font-weight: bold;
 }
-
 #aboutPopUp button:hover {
     color: red;
 }
-
 #aboutPopUp .svgico {
     padding-left: 50px;
     padding-right: 50px;
@@ -136,7 +117,6 @@ svg {
     margin-top: 0px;
     margin-bottom: 10px;
 }
-
 .csvfile button {
     font-size: 30px;
     background-color: #d4a24e;
