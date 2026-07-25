@@ -36,6 +36,7 @@ svg {
 .item {
     background-color: #d4a24e;
     border: black 5px solid;
+    font-size: 40px;
     position: relative;
     padding: 10px;
     margin: 10px;
@@ -83,6 +84,10 @@ svg {
 }
 
 #aboutPopUp {
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
     display: none;
     position: fixed;
     top: 50%; left: 50%;
