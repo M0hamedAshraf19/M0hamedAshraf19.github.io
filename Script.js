@@ -1,9 +1,7 @@
-function openAboutSection(id) {
-	document.getElementById(id).style.display='block';
-}
-function closeAboutSection(id) {
-	document.getElementById(id).style.display='none';
-}
+function openAboutSection(id) { document.getElementById(id).style.display='block'; }
+
+function closeAboutSection(id) { document.getElementById(id).style.display='none'; }
+
 function toggleItemVisibility(button) {
 	const item = button.parentElement
 	const link = item.querySelector('a');
