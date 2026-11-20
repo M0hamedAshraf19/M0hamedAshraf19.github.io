@@ -1,10 +1,10 @@
-function openPopUp(id) {
+function openAboutSection(id) {
 	document.getElementById(id).style.display='block';
 }
-function closePopUp(id) {
+function closeAboutSection(id) {
 	document.getElementById(id).style.display='none';
 }
-function switchItem(button) {
+function toggleItemVisibility(button) {
 	const item = button.parentElement
 	const link = item.querySelector('a');
 	if (button.innerText == '-') {
@@ -22,4 +22,3 @@ function switchItem(button) {
 		link.style.display = '';
 	}
 }
-
